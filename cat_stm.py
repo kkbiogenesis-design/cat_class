@@ -22,7 +22,7 @@ with open("classes.json", "r") as f:
 # Load trained model
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("cat.keras")
+    return tf.keras.models.load_model("CAT.keras")
 
 model = load_model()
 
